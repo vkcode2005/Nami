@@ -11,8 +11,8 @@ import cohere
 # Global recognizer initialization
 r = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "28e1b1420f7e4a1490d0df85d8e0abce"
-cohere_api_key = "1FhFfUwPdRUXvAAxO7X8XeYEWEoEDAV8usTeDGgS"  # Cohere API key
+newsapi = "api key"
+cohere_api_key = "api key "  # Cohere API key
 
 # Speech synthesis with Google Text-to-Speech (gTTS)
 def speak(text):
